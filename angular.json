@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "curso-profesional-angular"
+  "defaultProject": "curso-profesional-angular",
+  "cli": {
+    "analytics": "22692613-733b-4631-be66-c316121f30c3"
+  }
 }

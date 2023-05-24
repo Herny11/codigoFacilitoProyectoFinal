@@ -10,6 +10,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import{ReactiveFormsModule}from '@angular/forms';
 import { MarketNamePipe } from './pipes/market-name.pipe'
+import { PORT } from 'src/config';
 
 @NgModule({
   declarations: [AppComponent, CardComponent, ListComponent, DetailComponent, MarketNamePipe],
@@ -18,3 +19,4 @@ import { MarketNamePipe } from './pipes/market-name.pipe'
   bootstrap: [AppComponent],
 })
 export class AppModule {}
+
